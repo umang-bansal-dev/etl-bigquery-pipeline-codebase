@@ -1,0 +1,22 @@
+# Virtual environment — never push this to GitHub
+venv/
+venv313/
+
+# GCP credentials — NEVER push this, it's your password
+*.json
+etl-pipeline-svc-key.json
+
+# Raw data file — too large for GitHub
+data/raw_data.csv
+
+# Python cache files — not needed
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
